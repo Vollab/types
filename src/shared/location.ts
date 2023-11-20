@@ -1,4 +1,4 @@
 export interface Location {
-  city: string;
-  state: string;
+  city: string
+  state: string
 }

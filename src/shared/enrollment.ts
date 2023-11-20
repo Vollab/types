@@ -1,6 +1,6 @@
 export type EnrollmentStatus =
-  | "PENDING"
-  | "REFUSED"
-  | "APPROVED"
-  | "ACCEPTED"
-  | "WAIVER";
+  | 'PENDING'
+  | 'REFUSED'
+  | 'APPROVED'
+  | 'ACCEPTED'
+  | 'WAIVER'
