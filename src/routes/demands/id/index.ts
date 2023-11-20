@@ -1,7 +1,6 @@
-import { DemandStatus } from 'src/types/api/shared/demand'
-
-import { EnrollmentStatus } from 'types-vollab/dist/shared/enrollment'
-import { VacancyWorkMode } from 'types-vollab/dist/shared/vacancy'
+import { DemandStatus } from '../../../shared/demand'
+import { EnrollmentStatus } from '../../../shared/enrollment'
+import { VacancyWorkMode } from '../../../shared/vacancy'
 
 export interface Orderer {
   id: string

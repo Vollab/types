@@ -1,1 +1,1 @@
-export type EnrollmentStatus = "PENDING" | "REFUSED" | "APPROVED" | "ACCEPTED" | "WAIVER";
+export type EnrollmentStatus = 'PENDING' | 'REFUSED' | 'APPROVED' | 'ACCEPTED' | 'WAIVER';

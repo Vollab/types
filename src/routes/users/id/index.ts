@@ -1,5 +1,5 @@
-import { Link } from 'src/types/api/shared/link'
-import { Role } from 'src/types/api/shared/role'
+import { Link } from '../../../shared/link'
+import { Role } from '../../../shared/role'
 
 export interface UserParams {
   id: string

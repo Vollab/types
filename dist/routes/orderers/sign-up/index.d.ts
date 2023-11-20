@@ -1,11 +1,11 @@
-export interface IOrdererSignUpRequest {
+export interface OrdererSignUpRequest {
     name: string;
     email: string;
     phone: string;
     password: string;
     biography: string;
 }
-export interface IOrdererSignupResponse {
+export interface OrdererSignupResponse {
     orderer: {
         id: string;
         name: string;
