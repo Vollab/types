@@ -1,0 +1,23 @@
+{
+  "name": "types-vollab",
+  "version": "1.0.1",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "main": "dist/shared.js",
+  "types": "dist/shared.d.ts",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThirSec/ThirSec.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ThirSec/ThirSec/issues"
+  },
+  "homepage": "https://github.com/ThirSec/ThirSec#readme",
+  "description": ""
+}
