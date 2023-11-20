@@ -1,7 +1,9 @@
 {
   "name": "types-vollab",
   "version": "1.0.1",
-  "scripts": {},
+  "scripts": {
+    "update": "rm -rf dist/ && yarn tsc"
+  },
   "keywords": [],
   "author": "",
   "main": "dist/shared.js",
