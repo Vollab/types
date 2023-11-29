@@ -4,4 +4,6 @@ export interface ActivityAreaParams {
   id: string
 }
 
-export interface ActivityResponse extends ActivityArea {}
+export interface ActivityAreaResponse {
+  candidate_area: ActivityArea
+}

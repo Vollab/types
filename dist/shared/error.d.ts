@@ -1,3 +1,5 @@
 export interface ErrorResponse {
-  errors: { message: string }
+    errors: {
+        message: string;
+    }[];
 }

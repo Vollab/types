@@ -5,6 +5,6 @@ export interface SignInRequest {
   password: string
 }
 
-export interface UserResponse {
+export interface SignInResponse {
   user: User
 }
