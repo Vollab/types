@@ -1,4 +1,8 @@
 export interface Link {
-  href: string
-  label: string
+  id: string
+  url: string
+  text: string
+  user_id: string
+  created_at: string
+  updated_at: string
 }
