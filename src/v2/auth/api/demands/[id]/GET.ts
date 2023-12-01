@@ -7,16 +7,18 @@ export interface Params {
 }
 
 export interface Response {
-  id: string
-  title: string
-  resume: string
-  description: string
-  status: DemandStatus
-  enrollment?: { status: EnrollmentStatus }
-  orderer: { id: string; name: string; avatar?: string }
-  vacancies?: {
+  demand: {
     id: string
-    work_mode: VacancyWorkMode
-    activity_area: { id: string; name: string }
-  }[]
+    title: string
+    resume: string
+    description: string
+    status: DemandStatus
+    enrollment?: { status: EnrollmentStatus }
+    orderer: { id: string; name: string; avatar?: string }
+    vacancies?: {
+      id: string
+      work_mode: VacancyWorkMode
+      activity_area: { id: string; name: string }
+    }[]
+  }
 }
