@@ -6,9 +6,9 @@ export interface Response {
     role: Role
     name: string
     phone: string
-    avatar: string
+    avatar?: string
     biography: string
     activity_area: { id: string; name: string }
-    links: { id: string; url: string; text: string }[]
+    links?: { id: string; url: string; text: string }[]
   }
 }

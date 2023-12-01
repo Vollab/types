@@ -9,9 +9,9 @@ export interface Response {
         orderer: {
             id: string;
             name: string;
-            avatar: string;
+            avatar?: string;
         };
-        vacancies: {
+        vacancies?: {
             id: string;
             work_mode: VacancyWorkMode;
             activity_area: {
