@@ -13,11 +13,16 @@ export interface Response {
     resume: string
     description: string
     status: DemandStatus
-    enrollment?: { status: EnrollmentStatus }
     orderer: { id: string; name: string; avatar?: string }
     vacancies?: {
       id: string
+      name: string
+      city: string
+      state: string
+      open: boolean
+      description: string
       work_mode: VacancyWorkMode
+      enrollment?: { status: EnrollmentStatus }
       activity_area: { id: string; name: string }
     }[]
   }
