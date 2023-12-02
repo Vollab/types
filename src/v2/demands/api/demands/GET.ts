@@ -1,5 +1,5 @@
-import { DemandStatus } from '../../../../shared/demand'
-import { VacancyWorkMode } from '../../../../shared/vacancy'
+import { DemandStatus } from 'shared/demand'
+import { VacancyWorkMode } from 'shared/vacancy'
 
 export interface Response {
   demands: {

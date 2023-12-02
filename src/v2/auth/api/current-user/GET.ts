@@ -1,4 +1,4 @@
-import { Role } from '../../../../shared/role'
+import { Role } from 'shared/role'
 
 export interface Response {
   user: {
