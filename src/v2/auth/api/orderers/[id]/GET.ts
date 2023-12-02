@@ -1,13 +1,17 @@
-import { Role } from '../../../../shared/role'
+import { Link } from '../../../../shared/link'
+
+export interface Params {
+  id: string
+}
 
 export interface Response {
-  user: {
+  orderer: {
     id: string
     name: string
     email: string
     phone: string
     biography: string
 
-    role: Role
+    links: Link[]
   }
 }

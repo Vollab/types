@@ -8,11 +8,13 @@ export interface Response {
     title: string
     resume: string
     status: DemandStatus
-    orderer: { id: string; name: string; avatar?: string }
+
+    orderer: { id: string; name: string }
+
     vacancies?: {
       id: string
       work_mode: VacancyWorkMode
-      activity_area: ActivityArea
+      activity_area: ActivityArea['name']
     }[]
   }[]
 }
