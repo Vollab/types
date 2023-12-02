@@ -1,5 +1,6 @@
-import { DemandStatus } from 'shared/demand'
-import { VacancyWorkMode } from 'shared/vacancy'
+import { DemandStatus } from '../../../../shared/demand'
+import { VacancyWorkMode } from '../../../../shared/vacancy'
+import { ActivityArea } from '../../../shared/activity_area'
 
 export interface Response {
   demands: {
@@ -11,7 +12,7 @@ export interface Response {
     vacancies?: {
       id: string
       work_mode: VacancyWorkMode
-      activity_area: { id: string; name: string }
+      activity_area: ActivityArea
     }[]
   }[]
 }

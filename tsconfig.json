@@ -7,11 +7,6 @@
     "skipLibCheck": true,
     "esModuleInterop": true,
     "outDir": "./dist",
-    "forceConsistentCasingInFileNames": true,
-    "paths": {
-      "shared/*": ["./src/shared/*"],
-      "routes/*": ["./src/routes/*"],
-      "v2/*": ["./src/v2/*"]
-    }
+    "forceConsistentCasingInFileNames": true
   }
 }

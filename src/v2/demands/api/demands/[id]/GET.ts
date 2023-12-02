@@ -1,6 +1,6 @@
-import { DemandStatus } from 'shared/demand'
-import { EnrollmentStatus } from 'shared/enrollment'
-import { VacancyWorkMode } from 'shared/vacancy'
+import { DemandStatus } from '../../../../../shared/demand'
+import { EnrollmentStatus } from '../../../../../shared/enrollment'
+import { VacancyWorkMode } from '../../../../../shared/vacancy'
 
 export interface Params {
   id: string
