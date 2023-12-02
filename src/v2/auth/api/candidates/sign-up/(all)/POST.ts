@@ -10,7 +10,7 @@ export interface Request {
   password: string
 
   biography: string
-  activityAreas: { value: string; label: string }[]
+  activity_areas: { value: string; label: string }[]
 
   links?: Link[]
   avatar?: string

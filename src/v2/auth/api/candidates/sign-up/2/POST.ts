@@ -1,4 +1,4 @@
 export interface Request {
   biography: string
-  activityAreas: { value: string; label: string }[]
+  activity_areas: { value: string; label: string }[]
 }
