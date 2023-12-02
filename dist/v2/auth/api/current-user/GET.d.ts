@@ -4,13 +4,14 @@ export interface Response {
         id: string;
         role: Role;
         name: string;
+        email: string;
         phone: string;
         avatar?: string;
         biography: string;
         activity_area: {
             id: string;
             name: string;
-        };
+        }[];
         links?: {
             id: string;
             url: string;
