@@ -6,8 +6,11 @@ export interface Request {
     password: string;
     name: string;
     biography: string;
-    links?: Link[];
     avatar?: string;
+    links?: {
+        text: Link['text'];
+        url: Link['url'];
+    }[];
 }
 export interface Response extends CurrentUserResponse {
 }

@@ -13,8 +13,8 @@ export interface Request {
   biography: string
   activity_areas: ActivityArea[]
 
-  links?: Link[]
   avatar?: string
+  links?: { text: Link['text']; url: Link['url'] }[]
 }
 
 export interface Response extends CurrentUserResponse {}
