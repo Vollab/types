@@ -2,6 +2,7 @@
 // usar apenas a rota /candidates/signup com esta tipagem
 import { Response as CurrentUserResponse } from '../../../current-user/GET'
 import { Link } from '../../../../../shared/link'
+import { ActivityArea } from '../../../../../shared/activity_area'
 
 export interface Request {
   name: string
@@ -10,7 +11,7 @@ export interface Request {
   password: string
 
   biography: string
-  activity_areas: { value: string; label: string }[]
+  activity_areas: ActivityArea[]
 
   links?: Link[]
   avatar?: string
