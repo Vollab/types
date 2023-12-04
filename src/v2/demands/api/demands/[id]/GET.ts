@@ -11,6 +11,7 @@ export interface Response {
     resume: string
     description: string
     status: DemandStatus
+    
     orderer: { id: string; name: string }
   }
 }

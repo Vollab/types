@@ -10,12 +10,11 @@ export interface Response {
         orderer: {
             id: string;
             name: string;
-            avatar?: string;
         };
         vacancies?: {
             id: string;
             work_mode: VacancyWorkMode;
-            activity_area: ActivityArea;
+            activity_area: ActivityArea['name'];
         }[];
     }[];
 }
