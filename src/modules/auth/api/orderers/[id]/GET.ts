@@ -12,6 +12,6 @@ export interface Response {
     phone: string
     biography: string
 
-    links: Link[]
+    links: Link[] | null
   }
 }

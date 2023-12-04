@@ -10,7 +10,7 @@ export interface Response {
         email: string;
         phone: string;
         biography: string;
-        links: Link[];
-        activity_areas: ActivityArea[];
+        links: Link[] | null;
+        activity_areas: ActivityArea[] | null;
     };
 }

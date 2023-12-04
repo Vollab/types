@@ -9,7 +9,6 @@ export interface Request {
 export interface Response {
   candidate: {
     id: string
-
     name: string
     email: string
     phone: string

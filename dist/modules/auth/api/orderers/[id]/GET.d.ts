@@ -9,6 +9,6 @@ export interface Response {
         email: string;
         phone: string;
         biography: string;
-        links: Link[];
+        links: Link[] | null;
     };
 }
