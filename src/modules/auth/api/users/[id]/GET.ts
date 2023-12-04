@@ -1,7 +1,9 @@
-import { Response as CurrentUserResponse } from 'src/modules/auth/api/current-user/GET'
+import { User } from 'src/shared/user'
 
 export interface Params {
   id: string
 }
 
-export interface Response extends CurrentUserResponse {}
+export interface Response {
+  user: User
+}

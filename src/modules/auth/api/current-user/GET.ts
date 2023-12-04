@@ -1,13 +1,5 @@
-import { Role } from 'src/shared/role'
+import { User } from 'src/shared/user'
 
 export interface Response {
-  user: {
-    id: string
-    name: string
-    email: string
-    phone: string
-    biography: string
-
-    role: Role
-  }
+  user: User
 }

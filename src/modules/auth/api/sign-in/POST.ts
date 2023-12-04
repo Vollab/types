@@ -1,8 +1,10 @@
-import { Response as CurrentUserResponse } from '../current-user/GET'
+import { User } from 'src/shared/user'
 
 export interface Request {
   email: string
   password: string
 }
 
-export interface Response extends CurrentUserResponse {}
+export interface Response {
+  user: User
+}

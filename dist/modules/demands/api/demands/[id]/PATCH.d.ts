@@ -1,4 +1,4 @@
-import { Response as DemandResponse } from './GET';
+import { DemandStatus } from 'src/shared/demand';
 export interface Params {
     id: string;
 }
@@ -7,5 +7,16 @@ export interface Request {
     resume?: string;
     description?: string;
 }
-export interface Response extends DemandResponse {
+export interface Response {
+    demand: {
+        id: string;
+        title: string;
+        resume: string;
+        description: string;
+        status: DemandStatus;
+        orderer: {
+            id: string;
+            name: string;
+        };
+    };
 }
