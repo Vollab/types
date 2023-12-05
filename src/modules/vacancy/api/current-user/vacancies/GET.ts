@@ -7,9 +7,8 @@ export interface Response {
   demand_id: string
 
   name: string
-  description: string
   open: string
-
+  description: string
   work_mode: VacancyWorkMode
 
   activity_area_id: ActivityArea['name']

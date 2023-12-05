@@ -4,6 +4,8 @@ export interface Response {
         id: string;
         name: string;
         open: boolean;
+        city?: string;
+        state?: string;
         description: string;
         work_mode: VacancyWorkMode;
         activity_area: {
