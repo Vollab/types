@@ -1,4 +1,4 @@
-import { User } from 'src/shared/user'
+import { User } from '../../../../shared/user'
 
 export interface Request {
   email: string

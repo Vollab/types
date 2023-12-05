@@ -1,4 +1,4 @@
-import { Link } from 'src/shared/link'
+import { Link } from '../../../../../shared/link'
 
 export interface Params {
   id: string

@@ -1,6 +1,6 @@
-import { ActivityArea } from 'src/shared/activity_area'
-import { DemandStatus } from 'src/shared/demand'
-import { VacancyWorkMode } from 'src/shared/vacancy'
+import { ActivityArea } from '../../../../shared/activity_area'
+import { DemandStatus } from '../../../../shared/demand'
+import { VacancyWorkMode } from '../../../../shared/vacancy'
 
 export interface Response {
   demands: {

@@ -1,5 +1,4 @@
-import { DemandStatus } from 'src/shared/demand'
-import { Response as DemandResponse } from './GET'
+import { DemandStatus } from '../../../../../shared/demand'
 
 export interface Params {
   id: string

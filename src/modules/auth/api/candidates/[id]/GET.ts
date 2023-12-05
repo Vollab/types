@@ -1,5 +1,5 @@
-import { ActivityArea } from 'src/shared/activity_area'
-import { Link } from 'src/shared/link'
+import { ActivityArea } from '../../../../../shared/activity_area'
+import { Link } from '../../../../../shared/link'
 
 export interface Params {
   id: string

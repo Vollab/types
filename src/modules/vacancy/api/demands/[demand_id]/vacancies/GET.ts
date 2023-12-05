@@ -1,4 +1,4 @@
-import { VacancyWorkMode } from 'src/shared/vacancy'
+import { VacancyWorkMode } from '../../../../../../shared/vacancy'
 
 export interface Response {
   vacancies?: {

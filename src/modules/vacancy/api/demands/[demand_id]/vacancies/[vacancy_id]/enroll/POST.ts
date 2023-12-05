@@ -1,4 +1,4 @@
-import { EnrollmentStatus } from 'src/shared/enrollment'
+import { EnrollmentStatus } from '../../../../../../../../shared/enrollment'
 
 export interface Params {
   demand_id: string

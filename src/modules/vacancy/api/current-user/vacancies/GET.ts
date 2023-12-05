@@ -1,6 +1,6 @@
-import { ActivityArea } from 'src/shared/activity_area'
-import { EnrollmentStatus } from 'src/shared/enrollment'
-import { VacancyWorkMode } from 'src/shared/vacancy'
+import { ActivityArea } from '../../../../../shared/activity_area'
+import { EnrollmentStatus } from '../../../../../shared/enrollment'
+import { VacancyWorkMode } from '../../../../../shared/vacancy'
 
 export interface Response {
   id: string

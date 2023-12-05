@@ -1,5 +1,5 @@
-import { EnrollmentStatus } from 'src/shared/enrollment'
-import { VacancyWorkMode } from 'src/shared/vacancy'
+import { EnrollmentStatus } from '../../../../../../../shared/enrollment'
+import { VacancyWorkMode } from '../../../../../../../shared/vacancy'
 
 export interface Params {
   demand_id: string

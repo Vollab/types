@@ -1,6 +1,6 @@
 {
   "name": "types-vollab",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "scripts": {
     "update": "rm -rf dist/ && yarn tsc"
   },
