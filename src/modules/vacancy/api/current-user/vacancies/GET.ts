@@ -12,7 +12,7 @@ export interface Response {
     description: string
     work_mode: VacancyWorkMode
 
+    enrollment_status: EnrollmentStatus
     activity_area_id: ActivityArea['name']
-    enrollment: { status: EnrollmentStatus }
   }[]
 }
